@@ -22,6 +22,7 @@ function Feedback() {
          case 'Bad':
             setBad(Bad => Bad + 1);
             break;
+            default: return;
       }
    }
 
